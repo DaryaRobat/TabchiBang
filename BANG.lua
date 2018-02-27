@@ -501,7 +501,7 @@ local text = [[
 ●• <code>جوین اجباری</code>  : ]]  .. tostring(forcejoin)..  [[
 
 
-●• <code> کانال</code> : ]] .. tostring(channel_user) [[
+●• <code> کانال</code> : ]] .. tostring(channel_user)
 
 
 return SendMsg(msg.chat_id_, msg.id_, text)
